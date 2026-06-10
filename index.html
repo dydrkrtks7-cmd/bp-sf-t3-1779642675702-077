@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sf-t3-1779642675702-077.pages.dev/">
+    
+    <title>백링크 자동화 프로그램 | 마포 전문 네트워크 보안 솔루션 | Aegis Warmer</title>
+    <meta name="description" content="마포구 기반의 전문 네트워크 보안 솔루션 제공. 백링크 자동화 프로그램을 통한 도메인 가열 및 검색 엔진 최적화 전략을 설계합니다.">
+    <meta name="keywords" content="백링크 자동화 프로그램, 마포 네트워크 보안, 도메인 가열, SEO 자동화, 백링크 구축">
+    <meta name="author" content="Aegis Warmer">
+    
+    <!-- OG Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-077.pages.dev/">
+    <meta property="og:title" content="백링크 자동화 프로그램 | 마포 네트워크 보안">
+    <meta property="og:description" content="데이터 기반의 백링크 자동화 솔루션으로 도메인 신뢰도를 확보하십시오.">
+    <meta property="og:image" content="https://sf-t3-1779642675702-077.pages.dev/thumbnail.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="백링크 자동화 프로그램 | 마포 네트워크 보안">
+    <meta name="twitter:description" content="데이터 기반의 백링크 자동화 솔루션으로 도메인 신뢰도를 확보하십시오.">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Aegis Warmer",
+      "image": "https://sf-t3-1779642675702-077.pages.dev/logo.png",
+      "@id": "https://sf-t3-1779642675702-077.pages.dev",
+      "url": "https://sf-t3-1779642675702-077.pages.dev",
+      "telephone": "+82-10-6279-0862",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "마포구",
+        "addressLocality": "서울특별시",
+        "addressCountry": "KR"
+      },
+      "description": "전문 백링크 자동화 프로그램 및 네트워크 보안 솔루션을 제공하는 기업입니다."
+    }
+    </script>
+
+    <style>
+        /* CSS Reset & Variables */
+        :root {
+            --color-primary: #111111;
+            --color-secondary: #ffffff;
+            --color-accent: #2563eb;
+            --color-gray-50: #f9fafb;
+            --color-gray-200: #e5e7eb;
+            --color-gray-500: #6b7280;
+            --font-main: system-ui, -apple-system, "Inter", "Segoe UI", Roboto, sans-serif;
+            --spacing-unit: 1rem;
+            --container-width: 960px;
+            --border-thin: 1px solid var(--color-primary);
+            --border-light: 1px solid var(--color-gray-200);
+            --transition: all 0.2s ease-in-out;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--color-secondary);
+            color: var(--color-primary);
+            line-height: 1.6;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* Utility Classes */
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section-gap {
+            padding: 120px 0;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .text-center { text-align: center; }
+        .text-accent { color: var(--color-accent); }
+        .font-bold { font-weight: 700; }
+
+        /* Header & Nav */
+        header {
+            position: sticky;
+            top: 0;
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: var(--border-light);
+            z-index: 1000;
+            padding: 20px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            border: 2px solid var(--color-primary);
+            padding: 4px 12px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: var(--color-accent);
+            text-decoration: underline;
+        }
+
+        .mobile-toggle {
+            display: none;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .bar {
+            width: 24px;
+            height: 2px;
+            background-color: var(--color-primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 120px 0;
+            background-color: var(--color-primary);
+            color: var(--color-secondary);
+        }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            font-weight: 800;
+        }
+
+        .hero p {
+            font-size: 1.125rem;
+            color: #9ca3af;
+            max-width: 600px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--color-secondary);
+            color: var(--color-primary);
+            padding: 16px 32px;
+            font-weight: 600;
+            border: 1px solid var(--color-secondary);
+            margin-top: 16px;
+        }
+
+        .cta-button:hover {
+            background-color: transparent;
+            color: var(--color-secondary);
+        }
+
+        /* Content Sections */
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 48px;
+            border-left: 4px solid var(--color-accent);
+            padding-left: 16px;
+        }
+
+        .card {
+            border: 1px solid var(--color-gray-200);
+            padding: 32px;
+            transition: var(--transition);
+            background: #fff;
+        }
+
+        .card:hover {
+            border-color: var(--color-primary);
+            transform: translateY(-4px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        /* Review Section */
+        .review-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.875rem;
+            color: var(--color-gray-500);
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--color-gray-200);
+            padding-bottom: 8px;
+        }
+
+        .stars { color: var(--color-accent); }
+        
+        /* Footer */
+        footer {
+            background-color: var(--color-gray-50);
+            padding: 80px 0 40px;
+            border-top: var(--border-light);
+            font-size: 0.875rem;
+            color: var(--color-gray-500);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 48px;
+        }
+
+        .footer-col h4 {
+            color: var(--color-primary);
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 24px;
+            border-top: 1px solid var(--color-gray-200);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: white;
+                flex-direction: column;
+                padding: 24px;
+                border-bottom: 1px solid var(--color-gray-200);
+                gap: 16px;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-toggle {
+                display: flex;
+            }
+
+            .grid-2, .grid-3, .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .hero h1 {
+                font-size: 2.25rem;
+            }
+
+            .section-gap {
+                padding: 64px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Aegis Warmer</a>
+                <div class="mobile-toggle" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">솔루션 소개</a></li>
+                    <li><a href="#features">주요 기능</a></li>
+                    <li><a href="#reviews">고객 후기</a></li>
+                    <li><a href="#contact">문의하기</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>마포 기반의 정밀한<br>백링크 자동화 프로그램</h1>
+                <p>검색 엔진 알고리즘에 최적화된 네트워크 보안 및 백링크 가열 (Aging) 시스템. 데이터에 기반한 안전한 도메인 파워 상승 전략을 경험하십시오.</p>
+                <a href="tel:010-6279-0862" class="cta-button">전문가 무료 상담 010-6279-0862</a>
+            </div>
+        </section>
+
+        <!-- About / Features -->
+        <section id="features" class="section-gap">
+            <div class="container">
+                <h2 class="section-title">백링크 자동화 프로그램 핵심 기능</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <span class="card-icon">⚡</span>
+                        <h3>지능형 스케줄링</h3>
+                        <p>검색 엔진의 크롤링 패턴을 분석하여 가장 효과적인 시간대에 백링크를 배포하는 알고리즘을 탑재했습니다.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">🛡️</span>
+                        <h3>네트워크 보안 모듈</h3>
+                        <p>마포 데이터센터 수준의 보안 프로토콜을 적용하여, 자동화 과정에서의 스팸 리스크를 최소화합니다.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">📈</span>
+                        <h3>도메인 파워 가열</h3>
+                        <p>PBN(Public Blog Network) 접미사를 활용한 자연스러운 링크 빌딩으로 도메인 어소리티를 점진적으로 상승시킵니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Description -->
+        <section id="about" class="section-gap" style="background-color: var(--color-gray-50);">
+            <div class="container grid-2">
+                <div>
+                    <h2 class="section-title" style="border-left-color: #000;">왜 백링크 자동화가 필요한가?</h2>
+                    <p style="margin-bottom: 24px; color: #374151;">
+                        검색 엔진 최적화 (SEO) 에 있어 백링크는 여전히 가장 강력한 랭킹 신호 중 하나입니다. 하지만 수작업으로 구축하는 링크는 시간 소모가 크며, 부자연스러운 링크 패턴은 패널티의 위험을 초래합니다.
+                    </p>
+                    <p style="color: #374151;">
+                        우리의 <strong>백링크 자동화 프로그램</strong>은 마포 지역의 IT 인프라를 활용하여, 고립된 도메인들을 하나의 생태계로 연결합니다. 마치 실제 사용자가 콘텐츠를 소비하는 것처럼 자연스러운 트래픽 흐름을 시뮬레이션하여, 검색 엔진 로봇을 설득합니다.
+                    </p>
+                </div>
+                <div style="display: flex; align-items: center; justify-content: center; background: #fff; border: 1px solid var(--color-gray-200); padding: 48px;">
+                    <!-- Abstract Visual Representation using CSS/HTML -->
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; margin-bottom: 24px;">🕸️</div>
+                        <p class="font-bold" style="font-size: 1.5rem;">Secure Network</p>
+                        <p style="color: var(--color-gray-500);">Tier-3 PBN Architecture</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews (UGC) -->
+        <section id="reviews" class="section-gap">
+            <div class="container">
+                <h2 class="section-title">실사용자 리뷰</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <div class="review-meta">
+                            <span>최서연 님</span>
+                            <span>2023.10.12</span>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p style="margin-top: 12px; font-size: 0.95rem;">"수작업으로 하던 백링크 작업을 이 프로그램으로 전환했습니다. 마포 사무실에서 미팅하고 도입했는데, 2 달 만에 키워드 순위가 확실히 올랐습니다."</p>
+                    </div>
+                    <div class="card">
+                        <div class="review-meta">
+                            <span>김도현 님</span>
+                            <span>2023.11.05</span>
+                        </div>
+                        <div class="stars">★★★★☆</div>
+                        <p style="margin-top: 12px; font-size: 0.95rem;">"네트워크 보안 설정이 꼼꼼해서 좋습니다. 자동화 툴이다 보니 불안했는데, 패널티 없이 도메인 점수가 꾸준히 오르는 것을 확인했습니다."</p>
+                    </div>
+                    <div class="card">
+                        <div class="review-meta">
+                            <span>박지훈 님</span>
+                            <span>2023.12.20</span>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p style="margin-top: 12px; font-size: 0.95rem;">"가열 (Warming) 프로세스가 매우 자연스럽습니다. 급격한 순위 상승보다는 안정적인 우상향 곡선을 원하는 분들에게 추천합니다."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section id="contact" class="section-gap" style="border-top: 2px solid var(--color-primary);">
+            <div class="container text-center">
+                <h2 style="font-size: 2.5rem; margin-bottom: 24px;">지금 바로 시작하십시오</h2>
+                <p style="font-size: 1.2rem; color: var(--color-gray-500); margin-bottom: 40px;">
+                    복잡한 설정 없이, 전문가의 컨설팅을 통해 최적의 백링크 전략을 수립하세요.
+                </p>
+                <a href="tel:010-6279-0862" class="cta-button" style="background-color: var(--color-primary); color: #fff; border-color: var(--color-primary);">
+                    010-6279-0862 로 전화하기
+                </a>
+            </div>
+        </section>
+    </main>
+
+    
+
+
+<!-- PBN Recent Posts Feed Section -->
+<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
+  <div style="max-width:1100px;margin:0 auto">
+    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
+      
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>💡 GUIDE</span>
+          <time datetime="2026-06-10">2026-06-10</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">네트워크 보안 해결 방법 총정리 — 전문가가 알려주는 5가지 팁</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">### 포스트 메타정보포스트 기획 테마: 네트워크 보안 해결 방법 총정리 — 전문가가 알려주는 5가지 팁 백링크 지시: 본문 내러티브 속에서 다음 링크를 자연스러운 발견으로 녹여라:공식 가이드 채널 --- ## MK울트라 프로젝트의 1972년 의회 청문회에서 공개되지 </p>
+      </div>
+      <a href="posts/guide-001-m533k2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-10">2026-06-10</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">백링크 자동화 프로그램 처음 알아볼 때 실제로 많이 묻는 질문 5가지</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">### 제목: 창작한 제목IMDB 3점대에서의 타일러 더든 미처치 싱글 프레임 탐험기 아, 진짜... IMDB 3점대 작품에서 타일러 더든이 등장하기 전 싱글 프레임으로 삽입된 장면을 살펴보자. 이는 엄청난 비화와 숨은 디테일로 가득 찬 공간이다. ## 소제목 ### </p>
+      </div>
+      <a href="posts/qa-002-m533k2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    </div>
+  </div>
+</section>
+<footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Aegis Warmer</h4>
+                    <p>서울특별시 마포구<br>네트워크 보안 및 SEO 솔루션 전문<br>책임감 있는 자동화 기술</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul style="gap: 12px; display: flex; flex-direction: column;">
+                        <li>Phone: <a href="tel:010-6279-0862">010-6279-0862</a></li>
+                        <li>Email: contact@aegis-warmer.kr</li>
+                        <li>Domain: sf-t3-1779642675702-077.pages.dev</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul style="gap: 12px; display: flex; flex-direction: column;">
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">책임의 한계</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aegis Warmer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
